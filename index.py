@@ -411,6 +411,10 @@
 
 
 
+
+                                 # For Loop and while loop   
+
+
 # a = 1
 # while a <= 10:
 #     print(a)
@@ -508,11 +512,9 @@
 
 # num = int(input("Enter a number: "))
 # count = 0
-
 # while num > 0:
 #     num //= 10
 #     count += 1
-
 # print(" digits:", count)
 
 
@@ -520,43 +522,32 @@
 
 # num = int(input("Enter a number: "))
 # count = 0
-
 # for digit in str(num):
 #     count += 1
-
 # print("digits:", count)
 
 
 
-
-
 # num = int(input("Enter a number: "))
-
 # i = 1
 # while i <= 10:
 #     print(f"{num} x {i} = {num * i}")
 #     i += 1
 
 
-
-
-
 # num = int(input("Enter a number: "))
-
 # for i in range(1, 11):
 #     print(f"{num} x {i} = {num * i}")
 
 
 
 
-
-
-
-
-
-
 # msg='Hello world'
 # print(msg[2:5])
+     
+
+                                       #  Function
+
 
 
 # def siddharth():
@@ -565,14 +556,6 @@
 # siddharth()
 
 
-# def vote():
-#     a=int(input('a'))
-#     if(a>18):
-#         print("He is Above 18")
-#     else:
-#         print("He is Not Above 18")
-
-# vote()    
 
 
 # def fun():
@@ -620,17 +603,103 @@
 # siddharth(c, d)
 
 
-def add_numbers(a, b):
-    """
-    This function takes two numbers as input and returns their sum.
-    """
-    return a + b
+# def add_numbers(a, b):
+#     """
+#     This function takes two numbers as input and returns their sum.
+#     """
+#     return a + b
 
-# Example usage
-num1 = 5
-num2 = 10
-result = add_numbers(num1, num2)
-print("The sum of", num1, "and", num2, "is:", result)
+# # Example usage
+# num1 = 5
+# num2 = 10
+# result = add_numbers(num1, num2)
+# print("The sum of", num1, "and", num2, "is:", result)
 
 
 
+
+# def fun( a ):
+#     while a<=100:
+#         print(a)
+#         a+=a
+# fun(1)
+
+
+# def fun( a ):
+#     while a<=100:
+#         if a%2==0:
+#             print(a)
+#         a+=1
+# fun(1)
+
+
+
+# def fun( a , s ):
+#     while a<=100:
+#         if a%2==0:
+#             print(s)
+#         a+=1
+#         s+=a
+# fun(1 , 0)
+
+
+# def fun( a , s):
+#     while a<=100:
+#         print(s)
+#         a+=1
+#         s+=a
+# fun(1 , 0)
+
+
+# def fun( a , s ):
+#     while a<=100:
+#         if a%2==1:
+#             print(s)
+#         a+=1
+#         s+=a
+# fun(1 , 0)
+
+
+# def fun(a):
+#     print(a)
+# fun("siddharth")
+
+
+# def siddharth( ):
+#     a=int(input("Enter a number"))
+#     if a%2==0:
+#         print("its an even number")
+#     else:
+#         print("its an odd number")
+
+# siddharth()
+
+
+
+
+                                    #    Sir ke diye question
+
+# def circle():
+#     p=22/7
+#     r=int(input("radius"))
+#     print("area of circle" , p*r*r)
+#     print("peraeter pf circle", 2*p*r)
+# circle()    
+
+# def table():
+#     for i in range(1, 11):
+#         print(f"{num} x {i} = {num * i}")
+
+# num = int(input("Enter a number"))
+# table()
+
+
+
+# def vote():
+#     a=int(input('a'))
+#     if(a>18):
+#         print("He is Above 18")
+#     else:
+#         print("He is Not Above 18")
+
+# vote()    
