@@ -665,14 +665,6 @@
 # fun("siddharth")
 
 
-# def siddharth( ):
-#     a=int(input("Enter a number"))
-#     if a%2==0:
-#         print("its an even number")
-#     else:
-#         print("its an odd number")
-
-# siddharth()
 
 
 
@@ -703,3 +695,13 @@
 #         print("He is Not Above 18")
 
 # vote()    
+
+
+# def siddharth( ):
+#     a=int(input("Enter a number"))
+#     if a%2==0:
+#         print("its an even number")
+#     else:
+#         print("its an odd number")
+
+# siddharth()
