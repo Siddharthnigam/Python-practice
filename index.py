@@ -807,5 +807,93 @@
 
 
 
-list=(1,2,3,4,5,6)
-print(list.count)
+# list=(1,2,3,4,5,6)
+# print(list.count)
+
+
+                            #    Sets
+
+
+# set = {1,2,3,"Siddharth"}
+# print(len(set))
+
+# set = {1,2,3,"Siddharth"}
+# set.add("hello")
+# print(set)
+
+
+# set = {1,2,3,"Siddharth"}
+# set.clear()
+# print(set)
+
+# set = {1,2,3,"Siddharth"}
+# set.copy
+# print(set)
+
+# set = {1,2,3,"Siddharth"}
+# set.discard(3)
+# print(set)
+
+# set = {1,2,3,"Siddharth"}
+# set.remove(3)
+# print(set)
+
+# set = {1,2,3,"Siddharth"}
+# set.pop()
+# print(set)
+
+
+
+
+#                                   Dictionary
+
+# my_dict = {"Siddharth": 1, "Aman": 2, "Sohel": 3, "Nahru": 4}
+# my_dict.clear()
+# print(my_dict)  
+
+# my_dict = {"Siddharth": 1, "Aman": 2, "Sohel": 3, "Nahru": 4}
+# copied_dict = my_dict.copy()
+# print(copied_dict)  
+
+# my_dict = {"Siddharth": 1, "Aman": 2, "Sohel": 3, "Nahru": 4}
+# my_dict.pop("Siddharth", None)  
+# print(my_dict)  
+
+# my_dict = {"Siddharth": 1, "Aman": 2, "Sohel": 3, "Nahru": 4}
+# my_dict.pop("Aman", None)  
+# print(my_dict)  
+
+# my_dict = {"Siddharth": 1, "Aman": 2, "Sohel": 3, "Nahru": 4}
+# my_dict.popitem()
+# print(my_dict) 
+
+
+# my_dict = {"Aman": 2, "Siddharth": 1, "Nahru": 3, "Niraj": 4}
+# x = my_dict.get("Siddharth")
+# print(x)  
+
+# my_dict = {"Aman": 2, "Siddharth": 1, "Nahru": 3, "Niraj": 4}
+# x = my_dict.items()
+# print(x) 
+
+# my_dict = {"Aman": 2, "Siddharth": 1, "Nahru": 3, "Niraj": 4}
+# x = my_dict.keys()
+# print(x) 
+
+
+# my_dict = {"Aman": 2, "Siddharth": 1, "Nahru": 3, "Niraj": 4}
+# x = my_dict.popitem()
+# print(x)  
+
+# my_dict = {"Aman": 2, "Siddharth": 1, "Nahru": 3, "Niraj": 4}
+# x = my_dict.update({"Sohel":"2"})
+# print(my_dict)  
+
+
+# my_dict = {"Aman": 2, "Siddharth": 1, "Nahru": 3, "Niraj": 4}
+# x = my_dict.values()
+# print(x)  
+
+
+
+
