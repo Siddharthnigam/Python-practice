@@ -773,9 +773,19 @@
 # print(list)
 
 
-list=[1,2,3,4,5,6]
-list.clear()
-print(list)
+# list=[1,2,3,4,5,6]
+# list.clear()
+# print(list)
+
+# list=[1,2,3,4,5,6]
+# list.copy()
+# print(list)
+
+
+# list=[1,2,3,4,5,6]
+# list.reverse()
+# print(list)
+
 
 
 # str= "apple"
@@ -785,3 +795,17 @@ print(list)
 # list = [9, 10, 7, 6, 2, 1]
 # print(list.append(1))
 
+
+
+
+                                #     Tupples
+
+
+
+# list=(3,2,3,4,5,6)
+# print(list.count(3))
+
+
+
+list=(1,2,3,4,5,6)
+print(list.count)
