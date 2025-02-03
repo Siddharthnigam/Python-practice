@@ -242,19 +242,6 @@
 
 
 
-# list = ["Apple", "Banana" , "Mango"]
-# print(list)
-
-
-# list = [1, 2 , 3]
-# print(list)
-
-# list = [ True, False , False]
-# print(list)
-
-# list4 = list((1, 2 , 3))
-# print(list4)
-
 
 
 # for  i in range(1,100):
@@ -678,6 +665,8 @@
 #     print("peraeter pf circle", 2*p*r)
 # circle()    
 
+
+
 # def table():
 #     for i in range(1, 11):
 #         print(f"{num} x {i} = {num * i}")
@@ -705,3 +694,94 @@
 #         print("its an odd number")
 
 # siddharth()
+
+
+
+
+                                #       List(Array)
+
+
+
+
+# list = ["Apple", "Banana" , "Mango"]
+# print(list)
+
+
+# list = [1, 2 , 3]
+# print(list)
+
+# list = [ True, False , False]
+# print(list)
+
+# list4 = list((1, 2 , 3))
+# print(list4)
+
+
+# list=[9,10,7,6,2,1]
+# # list.sort()
+# # list.append(8)
+# # list.clear()
+# print(len(list))
+
+# str= "apple"
+# print(str[0:3])
+
+
+# list = [9, 10, 7, 6, 2, 1]
+# print(list.append(1))
+
+
+
+# for i in range(len(list)):
+#     for s in range(0, len(list) - i - 1):
+
+#         if list[s] > list[s + 1]:
+#             list[s], list[s + 1] = list[s + 1], list[s]
+
+
+# print(list)
+
+
+
+                                #    Methods
+
+
+
+
+# list=[9,10,7,6,2,1]
+# # list.sort()
+# # list.append(8)
+# # list.clear()
+# print(len(list))
+
+# list =[1,2,3,4,5]
+# list1=[6,7,8,9]
+# list.extend(list1)
+# print(list)
+
+# list=[1,2,3,4,5]
+# list.pop(2)
+# print(list)
+
+
+# list=[1,2,3,4,5]
+# list.remove(2)
+# print(list)
+
+# list=[1,2,3,4,5,6]
+# del list[3]
+# print(list)
+
+
+list=[1,2,3,4,5,6]
+list.clear()
+print(list)
+
+
+# str= "apple"
+# print(str[0:3])
+
+
+# list = [9, 10, 7, 6, 2, 1]
+# print(list.append(1))
+

@@ -12,4 +12,4 @@ def generate_otp(length):
         otp += str(random.randint(0, 9))
     print(otp)
     
-generate_otp(6)  # Example usage to generate a 6-digit OTP
+generate_otp(6)  
