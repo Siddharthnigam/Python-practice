@@ -896,4 +896,64 @@
 
 
 
+# def table(a):
+#      if a<=10:
+#         print(a)
+#         table(a + 1)
+
+# table(1)
+
+
+# def table(a):
+#      if a<=100:
+#          if a % 2 == 0:
+#             print(a)
+#          table(a + 1)
+
+# table(1)
+
+
+# def table(a):
+#      if a<=100:
+#          if a % 2 == 1:
+#             print(a)
+#          table(a + 1)
+
+# table(1)
+
+
+# def table(a, sum=0):
+#     if a > 100: 
+#         print(sum)
+#     else:
+#         table(a + 1, sum + a)
+
+# table(1)
+
+
+
+# def table(a, sum=0):
+#     if a > 100:
+#            print(sum)
+#     else:
+#         if a % 2==0:
+#            table(a+1 , sum+a)
+#         else:   
+#          table(a + 1, sum )
+
+# table(1)
+
+
+
+# def table(a, sum=0):
+#     if a > 100:
+#            print(sum)
+#     else:
+#         if a % 2==1:
+#            table(a+1 , sum+a)
+#         else:   
+#          table(a + 1, sum )
+
+# table(1)
+
 
