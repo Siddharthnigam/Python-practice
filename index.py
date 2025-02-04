@@ -957,3 +957,30 @@
 # table(1)
 
 
+
+# def table(a, count=0):
+#       if a <= 0:
+#         print(count)
+#       else:
+#         table( a -1 , count + 1)
+
+# table(1532)          
+
+
+
+# def table():
+#     a=1234
+#     count=0    
+#     if a < 0:
+#         print(count)
+#     else:
+#         a//=10 
+#         print(a)
+#         count + 1
+#         table()
+        
+
+# table()
+
+
+
