@@ -1090,39 +1090,38 @@
 
 # s=siddharth("siddharth");        
 
-class One:
-    def __init__(self, name):
-        self.name = name
+
+
+# class One:
+#     def __init__(self, name):
+#         self.name = name
     
-    def print_name(self):
-        print(self.name)
+#     def print_name(self):
+#         print(self.name)
 
-x = One("Siddharth")
-x.print_name()
-
-
+# x = One("Siddharth")
+# x.print_name()
 
 
-class Two:
-    def __init__(self, name):
-        self.name = name
+# class Two:
+#     def __init__(self, name):
+#         self.name = name
     
-    def print_name(self):
-        print(self.name)
+#     def print_name(self):
+#         print(self.name)
+
+# y = Two("Nahru")
+# y.print_name()
 
 
-y = Two("Nahru")
-y.print_name()
-
-
-
-
-class Three:
-    def __init__(self, name):
-        self.name = name
+# class Three:
+#     def __init__(self, name):
+#         self.name = name
     
-    def print_name(self):
-        print(self.name)
+#     def print_name(self):
+#         print(self.name)
 
-z = Three("Anshu")
-z.print_name()
+# z = Three("Anshu")
+# z.print_name()
+
+
