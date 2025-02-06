@@ -967,7 +967,6 @@
 # table(1532)          
 
 
-
 # def table():
 #     a=1234
 #     count=0    
@@ -979,8 +978,103 @@
 #         count + 1
 #         table()
         
-
 # table()
+
+
+# class my:
+#     def __init__( self , name , rollno , course , number ):
+#         self.name= name
+#         self.rollno= rollno
+#         self.course= course
+#         self.number= number
+
+# p= my("Siddharth" , 1 , "PGDFE" , 9098613462)
+# print(p.name, p.rollno, p.course, p.number)
+
+
+# p2= my("Nahru" , 2 , "PGDFE" , 9012343462)
+# print(p2.name, p2.rollno, p2.course, p2.number)
+
+# p3= my("Siddhi" , 3 , "PGDFE" , 7828144922)
+# print(p3.name, p3.rollno, p3.course, p3.number)
+
+
+# class my:
+#     def __init__( self , name , physics , chemistry , maths ):
+#         self.name= name
+#         self.physics= physics
+#         self.chemistry= chemistry
+#         self.maths= maths
+
+# p= my("Siddharth" , 98 , 94 , 99)
+# print(p.name , (p.chemistry + p.maths + p.physics) / 300 * 100)
+
+
+# p2= my("Nahru" , 39 , 45 , 56)
+# print(p2.name , (p2.chemistry + p2.maths + p2.physics) / 300 * 100)
+
+# p3= my("Siddhi" , 45 , 65 , 45)
+# print(p3.name , (p3.chemistry + p3.maths + p3.physics) / 300 * 100)
+
+
+
+# class my:
+#     def __init__( self , name , rollno , course , number ):
+#         self.name= name
+#         self.rollno= rollno
+#         self.course= course
+#         self.number= number
+
+# # p= my("Siddharth" , 1 , "PGDFE" , 9098613462)
+# # print(p.name, p.rollno, p.course, p.number)
+
+
+# p2= my("Nahru" , 2 , "PGDFE" , 9012343462)
+# print(p2.name, p2.rollno, p2.course, p2.number)
+
+# # p3= my("Siddhi" , 3 , "PGDFE" , 7828144922)
+# # print(p3.name, p3.rollno, p3.course, p3.number)
+
+
+# class Person:
+#   def __init__(self, fname, lname):
+
+#     self.firstname = fname
+#     self.lastname = lname
+
+#   def printname(self):
+#     print(self.firstname, self.lastname)
+    
+
+# x = Person("Siddharth", "Nigam")
+# x.printname()
+
+
+
+# class person:
+#     a=""
+
+# class child(person):
+#     pass
+ 
+# x = child()
+# x.a = 5
+# print(x.a)  
+
+
+# class person():
+#     a=12
+
+# class child(person):
+#    b=2
+#    pass
+ 
+# class child1(child):
+#     pass
+# x = child1()
+# print(x.a*x.b)  
+
+# 
 
 
 
