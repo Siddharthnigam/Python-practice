@@ -1036,6 +1036,11 @@
 # # print(p3.name, p3.rollno, p3.course, p3.number)
 
 
+
+#                                   Inheritance
+
+
+
 # class Person:
 #   def __init__(self, fname, lname):
 
@@ -1078,3 +1083,46 @@
 
 
 
+# class siddharth():
+    
+#     def __init__(self,name):
+#         print(name)
+
+# s=siddharth("siddharth");        
+
+class One:
+    def __init__(self, name):
+        self.name = name
+    
+    def print_name(self):
+        print(self.name)
+
+x = One("Siddharth")
+x.print_name()
+
+
+
+
+class Two:
+    def __init__(self, name):
+        self.name = name
+    
+    def print_name(self):
+        print(self.name)
+
+
+y = Two("Nahru")
+y.print_name()
+
+
+
+
+class Three:
+    def __init__(self, name):
+        self.name = name
+    
+    def print_name(self):
+        print(self.name)
+
+z = Three("Anshu")
+z.print_name()
