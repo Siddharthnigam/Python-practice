@@ -1125,3 +1125,89 @@
 # z.print_name()
 
 
+#                     Math library 
+
+
+# import math
+
+# c= math.sqrt(64)
+# print(c)
+# d= math.ceil(7.1)
+# print(d)
+# e= math.floor(7.9)
+# print(e)
+# f= math.pi
+# print(f)
+
+
+# a= abs(-7.25)
+# b= pow(4,3)
+# x= min(12,13,1)
+# y = max(1,3,5)
+# print(x)
+# print(b)
+# print(y)
+# print(a)
+
+
+
+#                     File handling
+
+# f=open("siddharth.txt", "r")  
+# data= f.read()   
+# f.close() 
+# print(data)
+
+
+
+# f=open("siddharth.txt", "w")  
+# f.write("Hello Siddharth")   
+# f.close() 
+
+
+# f=open("siddharth.txt", "x")  
+# f.write("Hello Siddharth")   
+# f.close() 
+
+# f=open("siddharth.txt", "a")  
+# f.write("Hello Siddharth")   
+# f.close() 
+
+
+# #   binary
+# f=open("hello.txt", "b")  
+# data= f.read()   
+# f.close() 
+# print(data)
+
+
+# #   text mode (default)
+# f=open("hello.txt")  
+# data= f.read()   
+# f.close() 
+# print(data)
+
+
+#      Lambda Function
+
+# x= lambda a: a+10
+# print(x(12))
+
+
+# import datetime
+# x= datetime.datetime.now()
+# # print(x)
+# print(x.year)
+# print(x.month)
+# print(x.day)
+# print(x.hour)
+# print(x.minute)
+# print(x.second)
+# print(x.strftime("%A"))
+# print(x.strftime("%B"))
+# print(x.strftime("%Y"))
+# print(x.strftime("%H"))
+# print(x.strftime("%I"))
+# print(x.strftime("%p"))
+# print(x.strftime("%S"))
+# print(x.strftime("%M"))
