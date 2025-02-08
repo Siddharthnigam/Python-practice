@@ -1,22 +1,3 @@
-# def function(length):
-#     otp=""   
-#     for i in range(1,length):
-#       otp+=Math.floor(Math.random()*10)
-#       print(i)
-
-import random
-
-def generate_otp(length):
-    otp = ""   
-    for i in range(length):
-        otp += str(random.randint(0, 9))
-    print(otp)
-    
-generate_otp(6)  
-
-
-
-
 # def converter():
 #     a = int(input("Enter amount in Indian currency: "))
 #     d = 80  
@@ -96,6 +77,9 @@ def main():
         except ValueError:
             print("Invalid amount. Please enter a numeric value.")
             continue
+
+
+
 
         from_currency = input("Enter the source currency (e.g., USD): ").upper()
         to_currency = input("Enter the target currency (e.g., EUR): ").upper()

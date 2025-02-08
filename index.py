@@ -1211,3 +1211,17 @@
 # print(x.strftime("%p"))
 # print(x.strftime("%S"))
 # print(x.strftime("%M"))
+
+
+
+                            #        Error handling
+
+
+# try:
+#   print(x)
+# except:
+#        print("An error occured")
+# finally:
+#     print("Hello World")
+
+
