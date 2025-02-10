@@ -79,47 +79,52 @@ exchangerates = {
     'ZMW': 20.0,      # Zambian Kwacha
     'ZWL': 360.0      # Zimbabwean Dollar
 }
-def print_currencies():
-    print("Supported currencies:")
+
+def currencies():
+    print("Accepted Currencies")
     for currency in exchangerates:
-        print(f"- {currency}")
+      print(f"-{currency}")
 
-def convert_currency(amount, from_currency, to_currency):
-    if from_currency not in exchangerates or to_currency not in exchangerates:
-        raise ValueError("Unsupported currency.")
 
-    # Convert the amount to USD first
-    amount_in_usd = amount / exchangerates[from_currency]
+def convert(amount, fromc, toc):
+    if fromc not in exchangerates or toc not in exchangerates:
+          print("Unsupported currency.")
+
+    base = amount / exchangerates[fromc]
+    converted = base * exchangerates[toc]
+    return converted
+
+
+
+
+def siddharth():
+   print("Welcome to Siddharth Currency Converter")
+   currencies()
+   
+   amount = input("\nEnter the amount (or 'q' to quit): ").strip()
+   if amount.lower() == "q":
+      print("Thanks See you soon")
+      
     
-    # Convert the USD amount to the target currency
-    converted_amount = amount_in_usd * exchangerates[to_currency]
-    return converted_amount
+   try:
+       amount = float(amount)
+   except ValueError:
+        print("Invalid amount. Please enter a numeric value.")
+        
+  
+   fromc = input("Enter the source currency (e.g., USD): ").upper()
+   toc = input("Enter the target currency (e.g., EUR): ").upper()
 
-def main():
-    print("Welcome to the Siddharth Currenct converter Converter!")
-    print_currencies()
+   if fromc not in exchangerates or toc not in exchangerates:
+      print("Enter a Valid currency")
 
-    while True:
-        amount = input("\nEnter the amount (or 'q' to quit): ").strip()
-        if amount.lower() == 'q':
-            print("Thank you for using the Currency Converter. Goodbye!")
-            break
+   converted = convert(amount, fromc, toc)
+   print(f"{amount} {fromc} = {converted:.2f} {toc}")  
 
-        try:
-            amount = float(amount)
-        except ValueError:
-            print("Invalid amount. Please enter a numeric value.")
-            continue
 
-        from_currency = input("Enter the source currency (e.g., USD): ").upper()
-        to_currency = input("Enter the target currency (e.g., EUR): ").upper()
 
-        if from_currency not in exchangerates or to_currency not in exchangerates:
-            print("Unsupported currency. Please check your input.")
-            continue
+          
 
-        converted_amount = convert_currency(amount, from_currency, to_currency)
-        print(f"{amount} {from_currency} = {converted_amount:.2f} {to_currency}")
 
-if __name__ == "__main__":
-    main()
+
+siddharth()
