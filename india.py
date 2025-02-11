@@ -85,7 +85,6 @@ def currencies():
     for currency in exchangerates:
       print(f"-{currency}")
 
-
 def convert(amount, fromc, toc):
     if fromc not in exchangerates or toc not in exchangerates:
           print("Unsupported currency.")
@@ -93,8 +92,6 @@ def convert(amount, fromc, toc):
     base = amount / exchangerates[fromc]
     converted = base * exchangerates[toc]
     return converted
-
-
 
 
 def siddharth():
@@ -120,11 +117,5 @@ def siddharth():
 
    converted = convert(amount, fromc, toc)
    print(f"{amount} {fromc} = {converted:.2f} {toc}")  
-
-
-
-          
-
-
 
 siddharth()
