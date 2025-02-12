@@ -83,39 +83,45 @@ exchangerates = {
 def currencies():
     print("Accepted Currencies")
     for currency in exchangerates:
-      print(f"-{currency}")
+        print(f"-{currency}")
 
 def convert(amount, fromc, toc):
     if fromc not in exchangerates or toc not in exchangerates:
-          print("Unsupported currency.")
+        print("Unsupported currency.")
+        return None
 
     base = amount / exchangerates[fromc]
     converted = base * exchangerates[toc]
     return converted
 
-
 def siddharth():
-   print("Welcome to Siddharth Currency Converter")
-   currencies()
-   
-   amount = input("\nEnter the amount (or 'q' to quit): ").strip()
-   if amount.lower() == "q":
-      print("Thanks See you soon")
-      
-    
-   try:
-       amount = float(amount)
-   except ValueError:
-        print("Invalid amount. Please enter a numeric value.")
-        
-  
-   fromc = input("Enter the source currency (e.g., USD): ").upper()
-   toc = input("Enter the target currency (e.g., EUR): ").upper()
+    print("Welcome to Siddharth Currency Converter")
+    currencies()
 
-   if fromc not in exchangerates or toc not in exchangerates:
-      print("Enter a Valid currency")
+    while True:
+        amount = input("\nEnter the amount (or 'q' to quit): "
+                       ).strip()
+        if amount.lower() == "q":
+            print("Thanks, see you soon!")
+            break
 
-   converted = convert(amount, fromc, toc)
-   print(f"{amount} {fromc} = {converted:.2f} {toc}")  
+        try:
+            amount = float(amount)
+        except ValueError:
+            print("Invalid amount. Please enter a numeric value.")
+            continue
+
+        fromc = input("Enter the source currency (e.g., USD): ").upper()
+        toc = input("Enter the target currency (e.g., EUR): ").upper()
+
+        if fromc not in exchangerates or toc not in exchangerates:
+            print("Enter a valid currency.")
+            continue
+
+        converted = convert(amount, fromc, toc)
+        if converted is not None:
+            print(f"{amount} {fromc} = {converted:.2f} {toc}")
+
+
 
 siddharth()
